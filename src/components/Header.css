@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.nav-container > a {
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+}
+
+.nav-container > a:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .nav-container {
+    padding-bottom: 25px;
+  }
+  .nav-container > a {
+    padding: 0;
+    font-size: 12px;
+  }
+}
