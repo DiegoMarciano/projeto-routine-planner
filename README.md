@@ -1,12 +1,36 @@
-# React + Vite
+# Gerenciador de Tarefas Dinâmico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um gerenciador de tarefas desenvolvido em **React** com funcionalidades avançadas para organização pessoal.  
+O projeto foi criado com foco em **produtividade**, **personalização** e **experiência do usuário**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Criar, editar e excluir tarefas facilmente  
+- Desfazer exclusão de tarefas (3 segundos para recuperar)  
+- Categorias visuais representadas por ícones (Trabalho, Estudo e Lazer)  
+- Filtro por categorias para exibir apenas o que importa  
+- Drag & Drop para reorganizar as tarefas  
+- Possibilidade de adicionar imagem personalizada como plano de fundo  
+- Salvamento automático no localStorage, garantindo persistência mesmo após atualizar ou fechar o navegador  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demonstração
+
+> *(adicione aqui um print ou gif do projeto rodando quando puder)*  
+
+---
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)  
+- [@hello-pangea/dnd](https://github.com/hello-pangea/dnd) (para drag & drop)  
+- CSS / SCSS  
+- LocalStorage (persistência de dados)
+
+---
+
+## Estrutura do Projeto
+
