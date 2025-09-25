@@ -5,6 +5,11 @@ O projeto foi criado com foco em **produtividade**, **personalização** e **exp
 
 ---
 
+## Acessar aplicação
+
+https://projeto-routine-planner.vercel.app/
+
+---
 ## Funcionalidades
 
 - Criar, editar e excluir tarefas facilmente  
